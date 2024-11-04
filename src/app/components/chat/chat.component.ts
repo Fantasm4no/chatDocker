@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { UsernameComponent } from "../../username/username.component";
 import { io } from 'socket.io-client';
+import { UsernameComponent } from '../username/username.component';
 @Component({
   selector: 'app-chat',
   standalone: true,
